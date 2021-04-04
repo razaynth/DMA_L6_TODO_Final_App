@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/list_item_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/list_item_tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/list_item_tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight=".25"
+        android:width="20dp"
+        android:fontFamily="@font/chango"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="14sp" />
+
+</LinearLayout>
+
+

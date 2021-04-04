@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tbcmad.todoapp.LoginActivity"
+    android:orientation="vertical"
+    android:id="@+id/container"
+
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="@color/daam"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:targetApi="jelly_bean" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edittext_username"
+            android:layout_width="236dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:fontFamily="@font/poppinsmedium"
+            android:drawableEnd="@drawable/ic_user"
+            android:hint="@string/username"
+            android:paddingLeft="2dp" />
+
+        <EditText
+            android:id="@+id/edittext_password"
+            android:layout_width="234dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:background="#ffffff"
+            android:fontFamily="@font/poppinsmedium"
+            android:drawableEnd="@drawable/ic_pass"
+            android:hint="@string/password" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="221dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/login"
+        android:textColor="#ffffff"
+        app:backgroundTint="@color/daam" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/create_user"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinsmedium"/>
+
+        <TextView
+            android:id="@+id/textview_register"
+            android:layout_width="83dp"
+            android:layout_height="42dp"
+            android:paddingLeft="10dp"
+            android:text="@string/register"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="#04ea00"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>
